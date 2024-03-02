@@ -2,11 +2,11 @@
 #include <WiFi.h>
 #include "PubSubClient.h"
 
-const char *ssid = "CMCC-Q2aC";
-const char *pwd  = "s7A3*Dtn";
+const char *ssid = "danke";
+const char *pwd  = "12345678";
 const char *mqtt_server = "5K43NA1J04.iotcloud.tencentdevices.com";
-const char *mqtt_username = "5K43NA1J04ESP32_tem;12010126;BWN06;1708692496";
-const char *mqtt_userpwd  = "d700a5fad006ce128713b482c6587ebaf4fccfe708308a5b1f6159ab1dba29e4;hmacsha256";
+const char *mqtt_username = "5K43NA1J04ESP32_tem;12010126;X0L2C;1709985823";
+const char *mqtt_userpwd  = "be50859e488c790e2f1ed16df63ff4f53dbfb44590b4ed291c428b8959ded110;hmacsha256";
 const char *mqtt_clientid = "5K43NA1J04ESP32_tem";
 const char *mqtt_pub_topic = "$thing/up/property/5K43NA1J04/ESP32_tem";
 const char *mqtt_sub_topic = "$thing/down/property/5K43NA1J04/ESP32_tem";
