@@ -1,5 +1,5 @@
 Dependencies for Project 'Template', Target 'Template': (DO NOT MODIFY !)
-F (.\main.c)(0x65D7102F)(-c --cpu Cortex-M3 -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\STM32F10x_FWLib\inc -I ..\SYSTEM\sys -I ..\SYSTEM\delay -I ..\HARDWARE\oled -I ..\HARDWARE\uart -I ..\HARDWARE\adc -I ..\HARDWARE\pwm -I ..\HARDWARE\sht30 -I ..\HARDWARE\beep -I ..\HARDWARE\motor -I ..\HARDWARE\rain-IE:\wps\毕业论文写作\代码工程\project\USER\RTE-ID:\51\keil5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-ID:\51\keil5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\main.o --omf_browse ..\obj\main.crf --depend ..\obj\main.d)
+F (.\main.c)(0x65E311EF)(-c --cpu Cortex-M3 -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\STM32F10x_FWLib\inc -I ..\SYSTEM\sys -I ..\SYSTEM\delay -I ..\HARDWARE\oled -I ..\HARDWARE\uart -I ..\HARDWARE\adc -I ..\HARDWARE\pwm -I ..\HARDWARE\sht30 -I ..\HARDWARE\beep -I ..\HARDWARE\motor -I ..\HARDWARE\rain-IE:\wps\毕业论文写作\代码工程\project\USER\RTE-ID:\51\keil5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-ID:\51\keil5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\main.o --omf_browse ..\obj\main.crf --depend ..\obj\main.d)
 I (stm32f10x.h)(0x4D783CB5)
 I (..\CORE\core_cm3.h)(0x4D523B58)
 I (D:\51\keil5\ARM\ARMCC\include\stdint.h)(0x574E3E26)
@@ -41,7 +41,7 @@ I (..\HARDWARE\sht30\sht30.h)(0x65827D03)
 I (..\HARDWARE\uart\uart.h)(0x64647068)
 I (..\HARDWARE\oled\oled.h)(0x6333B12D)
 I (..\HARDWARE\beep\beep.h)(0x62E9E803)
-I (..\HARDWARE\motor\motor.h)(0x6586B079)
+I (..\HARDWARE\motor\motor.h)(0x65E3119A)
 I (..\HARDWARE\rain\rain.h)(0x6586F582)
 F (.\stm32f10x_it.c)(0x4EBEACB0)(-c --cpu Cortex-M3 -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\STM32F10x_FWLib\inc -I ..\SYSTEM\sys -I ..\SYSTEM\delay -I ..\HARDWARE\oled -I ..\HARDWARE\uart -I ..\HARDWARE\adc -I ..\HARDWARE\pwm -I ..\HARDWARE\sht30 -I ..\HARDWARE\beep -I ..\HARDWARE\motor -I ..\HARDWARE\rain-IE:\wps\毕业论文写作\代码工程\project\USER\RTE-ID:\51\keil5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-ID:\51\keil5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f10x_it.o --omf_browse ..\obj\stm32f10x_it.crf --depend ..\obj\stm32f10x_it.d)
 I (stm32f10x_it.h)(0x4D99A427)
@@ -1062,8 +1062,8 @@ I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
 I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415F)
 I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
 I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
-F (..\HARDWARE\motor\motor.c)(0x6586EDB3)(-c --cpu Cortex-M3 -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\STM32F10x_FWLib\inc -I ..\SYSTEM\sys -I ..\SYSTEM\delay -I ..\HARDWARE\oled -I ..\HARDWARE\uart -I ..\HARDWARE\adc -I ..\HARDWARE\pwm -I ..\HARDWARE\sht30 -I ..\HARDWARE\beep -I ..\HARDWARE\motor -I ..\HARDWARE\rain-IE:\wps\毕业论文写作\代码工程\project\USER\RTE-ID:\51\keil5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-ID:\51\keil5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\motor.o --omf_browse ..\obj\motor.crf --depend ..\obj\motor.d)
-I (..\HARDWARE\motor\motor.h)(0x6586B079)
+F (..\HARDWARE\motor\motor.c)(0x65E3119A)(-c --cpu Cortex-M3 -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\STM32F10x_FWLib\inc -I ..\SYSTEM\sys -I ..\SYSTEM\delay -I ..\HARDWARE\oled -I ..\HARDWARE\uart -I ..\HARDWARE\adc -I ..\HARDWARE\pwm -I ..\HARDWARE\sht30 -I ..\HARDWARE\beep -I ..\HARDWARE\motor -I ..\HARDWARE\rain-IE:\wps\毕业论文写作\代码工程\project\USER\RTE-ID:\51\keil5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-ID:\51\keil5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\motor.o --omf_browse ..\obj\motor.crf --depend ..\obj\motor.d)
+I (..\HARDWARE\motor\motor.h)(0x65E3119A)
 I (..\SYSTEM\sys\sys.h)(0x550F951A)
 I (..\USER\stm32f10x.h)(0x4D783CB5)
 I (..\CORE\core_cm3.h)(0x4D523B58)

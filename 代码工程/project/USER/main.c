@@ -18,8 +18,8 @@
 extern u16 tem1,hum1;
 
 char flag = 1;
-int tem2 = 50;							//为了传给esp32模块
-int hum2 = 1;			
+//int tem2 = 50;							//为了传给esp32模块
+//int hum2 = 1;			
 
 void tem_hum()		//温湿度检测并且对其他元器件进行控制
 {
@@ -90,24 +90,27 @@ void Wifi()			//用于连接esp32
 {
 	flag = 2;
 	
-	printf("%d\n",tem2);
-	printf("%d\n",hum2);	
-	if(hum2 < 100)
-	{
-		hum2++;
-	}
-	else
-	{
-		hum2 = 1;
-	}
-	if(tem2 >0)
-	{
-		tem2--;;
-	}
-	else
-	{
-		tem2 = 50;
-	}		
+	printf("%d\n",tem1);
+	printf("%d\n",hum1);	
+	
+//	printf("%d\n",tem2);
+//	printf("%d\n",hum2);	
+//	if(hum2 < 100)
+//	{
+//		hum2++;
+//	}
+//	else
+//	{
+//		hum2 = 1;
+//	}
+//	if(tem2 >0)
+//	{
+//		tem2--;;
+//	}
+//	else
+//	{
+//		tem2 = 50;
+//	}		
 	
 	flag = 1;
 		
