@@ -27,13 +27,13 @@ void tem_hum()		//温湿度检测并且对其他元器件进行控制
 	OLED_ShowNum(38,0,(int)tem1,2,16);
 	OLED_ShowNum(100,0,(int)hum1,2,16);
 	
-	if(hum1 > 70)	//判断蜂鸣器是否报警
+	if(hum1 > 80 || hum1 < 50)	//判断蜂鸣器是否报警
 		BEEP = 1;
 	else
 		BEEP = 0;
 	
 	
-	if(hum1 > 70)
+	if(tem1 > 30)
 	{
 		MOTOR1 = 0;	
 		MOTOR2 = 1;
@@ -129,7 +129,7 @@ int main(void)
 	UART1_GPIO_Config();					//uart1初始化
 	UART2_GPIO_Config();					//uart2初始化
 	BEEP_Init();									//蜂鸣器初始化
-	//MOTOR_Init();									//风扇初始化
+	MOTOR_Init();									//风扇初始化
 	RAIN_Init();									//雨滴传感器
 	
 	//TIM_SetCompare3(TIM3,0);
